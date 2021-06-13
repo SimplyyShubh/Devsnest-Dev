@@ -1,0 +1,34 @@
+body{
+    background-color: antiquewhite;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock{
+    background: cornflowerblue;
+    border: 8px solid black;
+    border-radius: 50% ;
+    height: 250px ;
+    width: 250px ;
+    padding: 10px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.three, .twelve , .six , .nine {
+    font-size: 2em;
+}
+
+.nine {
+
+    /* justify-self: center; */
+    /* top: 0; */
+    /* justify-self: center; */
+}
+
+.twelve{
+    align-self: center;
+    justify-self: center;
+}
