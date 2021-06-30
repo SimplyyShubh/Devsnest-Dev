@@ -1,0 +1,73 @@
+.box {
+    width: 80px;
+    height: 60px;
+    border: 3px solid #CCC7B9;
+    background-color: #EAF9D9;
+    display: block;
+    border-radius: 10%;
+    margin: 2px;
+}
+
+.box:hover {
+    /* background-color: rgb(238, 149, 139); */
+    opacity: 0.8;
+}
+
+.boxclicked {
+    background-color: #AF7A6D;
+}
+
+.frame {
+    width: 500px;
+    height: 400px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    /* border: 5px double darkorange; */
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    width: 3rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.count {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E2D4BA;
+    text-decoration: double;
+    background-color: #653239;
+}
+
+
+/* 
+body {
+    background-image: linear-gradient(to bottom, lightcyan, #8FB8DE);
+} */
