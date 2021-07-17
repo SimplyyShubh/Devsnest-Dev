@@ -1,0 +1,40 @@
+
+
+
+
+.card
+{
+    width: 280px;
+    height: 90px;
+    display: inline-block;
+    border: 2px solid black;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom :10px;
+    border-radius: 10px;
+    color: #042846;
+    background-color: #FBC2B5;
+
+}
+
+.card .title{
+font-weight: bolder;
+font-size: 1.2rem;
+margin: 10px 0px;
+text-decoration: underline;
+}
+.container{
+display: flex;
+flex-direction: column;
+height: 300px;
+width: 400px;
+overflow-y: scroll;
+position: absolute;
+top: 20%;
+left: 30%;
+box-sizing:border-box ;
+border: 3px solid black;
+padding:10px 20px ;
+border-radius: 10px;
+background-color: #FFA8A9;
+}

@@ -1,0 +1,32 @@
+.block :nth-child(odd){
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    /* display: block; */
+}
+.block :nth-child(even){
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    /* display: block; */
+}
+
+.line1
+{
+    height: 15px;
+    width: 100px;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+.main_box{
+    width: 800px;
+    height: 100px;
+    /* margin: auto; */
+    /* display: flex;
+    justify-content: space-evenly; */
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border: 4px solid black;
+}
